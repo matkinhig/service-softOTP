@@ -8,57 +8,57 @@ import javax.persistence.Table;
 @Table(name = "VBOTP_Contract")
 public class CreateNewEntity extends RequestModel {
     @Column(name = "CustomerID")
-    private String customerID;
+    private String CustomerID;
 
     @Column(name = "AccountNumber")
-    private String accountNumber;
+    private String AccountNumber;
 
     @Column(name = "Limit")
-    private Number limit;
+    private Number Limit;
 
     @Column(name = "PhoneNumber")
-    private String phoneNumber;
+    private String PhoneNumber;
 
     @Column(name = "SerialDeviceNumber")
-    private String serialDeviceNumber;
+    private String SerialDeviceNumber;
 
     public String getCustomerID() {
-        return customerID;
+        return CustomerID;
     }
 
     public void setCustomerID(String customerID) {
-        this.customerID = customerID;
+        CustomerID = customerID;
     }
 
     public String getAccountNumber() {
-        return accountNumber;
+        return AccountNumber;
     }
 
     public void setAccountNumber(String accountNumber) {
-        this.accountNumber = accountNumber;
+        AccountNumber = accountNumber;
     }
 
     public Number getLimit() {
-        return limit;
+        return Limit;
     }
 
     public void setLimit(Number limit) {
-        this.limit = limit;
+        Limit = limit;
     }
 
     public String getPhoneNumber() {
-        return phoneNumber;
+        return PhoneNumber;
     }
 
     public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+        PhoneNumber = phoneNumber;
     }
 
     public String getSerialDeviceNumber() {
-        return serialDeviceNumber;
+        return SerialDeviceNumber;
     }
 
     public void setSerialDeviceNumber(String serialDeviceNumber) {
-        this.serialDeviceNumber = serialDeviceNumber;
+        SerialDeviceNumber = serialDeviceNumber;
     }
 }

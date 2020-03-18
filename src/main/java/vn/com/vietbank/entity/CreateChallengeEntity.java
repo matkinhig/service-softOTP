@@ -9,79 +9,79 @@ import java.util.Date;
 @Table(name = "VBOTP_Challenge_Code")
 public class CreateChallengeEntity extends RequestModel {
     @Column(name = "CustomerId")
-    private String customerId;
+    private String CustomerId;
 
     @Column(name = "CreditAccount")
-    private String creditAccount;
+    private String CreditAccount;
 
     @Column(name = "DebitAccount")
-    private String debitAccount;
+    private String DebitAccount;
 
     @Column(name = "Owner")
-    private String owner;
+    private String Owner;
 
     @Column(name = "TransactionDate")
-    private Date transactionDate;
+    private Date TransactionDate;
 
     @Column(name = "TransactionType")
-    private String transactionType;
+    private String TransactionType;
 
     @Column(name = "Amount")
-    private Number amount;
+    private Number Amount;
 
     public String getCustomerId() {
-        return customerId;
+        return CustomerId;
     }
 
     public void setCustomerId(String customerId) {
-        this.customerId = customerId;
+        CustomerId = customerId;
     }
 
     public String getCreditAccount() {
-        return creditAccount;
+        return CreditAccount;
     }
 
     public void setCreditAccount(String creditAccount) {
-        this.creditAccount = creditAccount;
+        CreditAccount = creditAccount;
     }
 
     public String getDebitAccount() {
-        return debitAccount;
+        return DebitAccount;
     }
 
     public void setDebitAccount(String debitAccount) {
-        this.debitAccount = debitAccount;
+        DebitAccount = debitAccount;
     }
 
     public String getOwner() {
-        return owner;
+        return Owner;
     }
 
     public void setOwner(String owner) {
-        this.owner = owner;
+        Owner = owner;
     }
 
     public Date getTransactionDate() {
-        return transactionDate;
+        return TransactionDate;
     }
 
     public void setTransactionDate(Date transactionDate) {
-        this.transactionDate = transactionDate;
+        TransactionDate = transactionDate;
     }
 
     public String getTransactionType() {
-        return transactionType;
+        return TransactionType;
     }
 
     public void setTransactionType(String transactionType) {
-        this.transactionType = transactionType;
+        TransactionType = transactionType;
     }
 
     public Number getAmount() {
-        return amount;
+        return Amount;
     }
 
     public void setAmount(Number amount) {
-        this.amount = amount;
+        Amount = amount;
     }
 }

@@ -10,35 +10,35 @@ import java.util.Date;
 public abstract class RequestModel {
     @Id
     @Column(name = "RequestId")
-    private String requestId;
+    private String RequestId;
 
     @Column(name = "RequestDateTime")
-    private Date requestDateTime;
+    private Date RequestDateTime;
 
     @Column(name = "Function")
-    private String function;
+    private String Function;
 
     public String getRequestId() {
-        return requestId;
+        return RequestId;
     }
 
     public void setRequestId(String requestId) {
-        this.requestId = requestId;
+        RequestId = requestId;
     }
 
     public Date getRequestDateTime() {
-        return requestDateTime;
+        return RequestDateTime;
     }
 
     public void setRequestDateTime(Date requestDateTime) {
-        this.requestDateTime = requestDateTime;
+        RequestDateTime = requestDateTime;
     }
 
     public String getFunction() {
-        return function;
+        return Function;
     }
 
     public void setFunction(String function) {
-        this.function = function;
+        Function = function;
     }
 }

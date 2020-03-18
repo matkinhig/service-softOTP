@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a4d3be5-5c02-4897-a036-0983e6dda55e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/api/SoftOTPAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/dto/SoftOTPDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/entity/CreateChallengeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/entity/CreateChallengeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/entity/CreateNewEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/entity/CreateNewEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/entity/RequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/entity/RequestModel.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +93,7 @@
       <updated>1584322497271</updated>
       <workItem from="1584322500082" duration="1200000" />
       <workItem from="1584499640213" duration="13276000" />
-      <workItem from="1584521056106" duration="1836000" />
+      <workItem from="1584521056106" duration="4513000" />
     </task>
     <servers />
   </component>
