@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a4d3be5-5c02-4897-a036-0983e6dda55e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/api/SoftOTPAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/dto/SoftOTPDTO.java" afterDir="false" />
+    <list default="true" id="4a4d3be5-5c02-4897-a036-0983e6dda55e" name="Default Changelist" comment="start spring jpa">
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/uitls/ObjectUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/entity/CreateChallengeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/entity/CreateChallengeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/entity/CreateNewEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/entity/CreateNewEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/entity/RequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/entity/RequestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/api/SoftOTPAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/com/vietbank/api/SoftOTPAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/com/vietbank/entity/CreateChallengeEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/com/vietbank/entity/CreateChallengeEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/com/vietbank/entity/CreateNewEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/com/vietbank/entity/CreateNewEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/com/vietbank/entity/RequestModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/com/vietbank/entity/RequestModel.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,8 +96,19 @@
       <updated>1584322497271</updated>
       <workItem from="1584322500082" duration="1200000" />
       <workItem from="1584499640213" duration="13276000" />
-      <workItem from="1584521056106" duration="4513000" />
+      <workItem from="1584521056106" duration="4631000" />
+      <workItem from="1584580572285" duration="4300000" />
+      <workItem from="1584585518011" duration="6736000" />
+      <workItem from="1584667058703" duration="480000" />
     </task>
+    <task id="LOCAL-00001" summary="start spring jpa">
+      <created>1584526452198</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584526452198</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,10 +119,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start spring jpa" />
+    <option name="LAST_COMMIT_MESSAGE" value="start spring jpa" />
   </component>
 </project>
